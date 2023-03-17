@@ -1,0 +1,40 @@
+<<<<<<< HEAD
+@media(min-width: 992px){
+    #picProfile{
+        position: absolute !important;
+        top: 23.5rem;
+        left: 5rem;
+        height: 15rem;
+        z-index: 11;
+    }
+}
+
+@media (max-width: 991px){
+    #picProfile{
+        position: absolute !important;
+    top: 9.7rem;
+    left: 3.4rem;
+    height: 8rem;
+    z-index: 11;
+    }
+=======
+@media(min-width: 992px){
+    #picProfile{
+        position: absolute !important;
+        top: 23.5rem;
+        left: 5rem;
+        height: 15rem;
+        z-index: 11;
+    }
+}
+
+@media (max-width: 991px){
+    #picProfile{
+        position: absolute !important;
+    top: 9.7rem;
+    left: 3.4rem;
+    height: 8rem;
+    z-index: 11;
+    }
+>>>>>>> a62a70d5a9f63045fe4f3c2c8ace0c0d9a984505
+}

@@ -1,0 +1,44 @@
+<<<<<<< HEAD
+@media(min-width: 992px){
+    #banner{
+        position: absolute !important;
+        top: 7rem;
+        left: auto;
+        height: 25rem;
+        z-index: 10;
+        opacity: 95%;
+    }
+}
+
+@media (max-width: 991px){
+    #banner{
+        position: absolute !important;
+        top: 5rem;
+        left: auto;
+        height: 9.5rem;
+        z-index: 10;
+        opacity: 95%;
+    }
+=======
+@media(min-width: 992px){
+    #banner{
+        position: absolute !important;
+        top: 7rem;
+        left: auto;
+        height: 25rem;
+        z-index: 10;
+        opacity: 95%;
+    }
+}
+
+@media (max-width: 991px){
+    #banner{
+        position: absolute !important;
+        top: 5rem;
+        left: auto;
+        height: 9.5rem;
+        z-index: 10;
+        opacity: 95%;
+    }
+>>>>>>> a62a70d5a9f63045fe4f3c2c8ace0c0d9a984505
+}
