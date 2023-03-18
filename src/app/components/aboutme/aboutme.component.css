@@ -1,0 +1,33 @@
+@media(min-width: 992px){
+    #about{
+        height: 14rem;
+        top: 33rem;
+        position: absolute;
+        z-index: 10;
+    }
+ }
+
+/*  para el rango entre 446 & 991 */
+ @media (min-width: 446px) and (max-width: 991px) {
+    #about {
+        height: 10rem;
+        top: 22rem;
+        position: absolute;
+        z-index: 10;
+    }
+}
+
+
+ /* version pantallas pequeñas
+ */@media (max-width: 991px){
+    p{
+        display:none;
+    }
+    #about{
+        height: 7rem;
+    top: 14.2rem;
+    position: absolute;
+    z-index: 10;
+    
+    }
+ }

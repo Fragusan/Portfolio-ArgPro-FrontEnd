@@ -12,6 +12,9 @@ import { PicProfileComponent } from './components/pic-profile/pic-profile.compon
 import { ConsolComponent } from './components/consol/consol.component';
 import { CodeComponent } from './components/code/code.component';
 import { WindowComponent } from './components/window/window.component';
+import { MainComponent } from './components/main/main.component';
+import { CertificacionesComponent } from './components/certificaciones/certificaciones.component';
+import { CardEducComponent } from './components/card-educ/card-educ.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { WindowComponent } from './components/window/window.component';
     PicProfileComponent,
     ConsolComponent,
     CodeComponent,
-    WindowComponent
+    WindowComponent,
+    MainComponent,
+    CertificacionesComponent,
+    CardEducComponent
   ],
   imports: [
     BrowserModule
