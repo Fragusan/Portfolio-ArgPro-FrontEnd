@@ -1,32 +1,56 @@
 ul {
     list-style-type: none !important;
+    display: flex !important;
     margin: 0;
     padding: 0;
   }
+  li{
+      display: flex !important;
+      margin-top: 0.1rem!important;
+      justify-content: center!important;
+  }
 
 
- @media(min-width: 992px){
+ /* Estilos para pantallas mayores o iguales a 1024px */
+ @media (min-width: 1024px) {
    #wind{
       position: absolute !important;
        top: 11rem;
-       left: 35rem;
+       left: 31%;
        height: 16.03rem;
        z-index: 12;
-       width: 36rem;
     }
-}
-/* version pantallas pequeñas
-*/@media (max-width: 991px){
+ }
+
+ @media (min-width: 560px) and (max-width: 1023px) {
+   /* Estilos para pantallas entre 768px y 1023px */
+   #wind{
+      position: absolute !important;
+      top: 5.4rem;
+      left: 17%;
+      height: 8.6rem;
+      z-index: 12;
+      width: 23rem;
+    }
+ }
+
+  /* pequeñas */
+  @media (max-width: 559px) {
+   
+   li {
+      display: block !important;
+   }
+
    .col-9{
       flex: 0 0 auto !important;
       width: 50% !important;
    }
    #wind{
       position: absolute !important;
-       top: 6rem;
-       left: 12rem;
-       height: 7.03rem;
-       z-index: 12;
-       width: 9.8rem;
+      top: 6rem;
+      left: 3rem;
+      height: 7.095rem;
+      z-index: 12;
+      width: 9.8rem;
     }
-}
+ }
