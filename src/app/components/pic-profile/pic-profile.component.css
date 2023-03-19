@@ -33,7 +33,8 @@
 @media (min-width: 560px) and (max-width:817px) {
     #picProfile {
         position: absolute !important;
-        top: 34rem;
+        top: 15rem;
+        /*top: 34rem;*/
         margin-left: 1.25%;
         height: 14rem;
         z-index: 11;
@@ -62,9 +63,14 @@
 
     #picProfile {
         position: absolute !important;
+        top: 15rem;
+        left: 0.95rem;
+        height: 4rem;
+        z-index: 11;
+        /* position: absolute !important;
         top: 14%;
         left: 52%;
         height: 22%;
-        z-index: 11;
+        z-index: 11; */
     }
 }
