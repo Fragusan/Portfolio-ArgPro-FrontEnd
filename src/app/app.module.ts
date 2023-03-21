@@ -15,6 +15,7 @@ import { WindowComponent } from './components/window/window.component';
 import { MainComponent } from './components/main/main.component';
 import { CertificacionesComponent } from './components/certificaciones/certificaciones.component';
 import { CardEducComponent } from './components/card-educ/card-educ.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { CardEducComponent } from './components/card-educ/card-educ.component';
     WindowComponent,
     MainComponent,
     CertificacionesComponent,
-    CardEducComponent
+    CardEducComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule
