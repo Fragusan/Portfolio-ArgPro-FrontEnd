@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { VisibilityService } from '../../visibility.service';
 
 @Component({
   selector: 'app-code',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./code.component.css']
 })
 export class CodeComponent {
-
+  constructor(public visibilityService: VisibilityService) {}
 }
