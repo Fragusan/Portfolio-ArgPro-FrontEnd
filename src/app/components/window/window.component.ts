@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { VisibilityService } from '../../visibility.service';
 
 @Component({
   selector: 'app-window',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class WindowComponent {
 
-}
+  constructor(public visibilityService: VisibilityService){}
+
+    hide(){
+      this.visibilityService.setVisible(false)
+    }
+  }

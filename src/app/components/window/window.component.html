@@ -1,6 +1,6 @@
-<ul id="wind" class="col-md-5 row row-cols-12 m-0 p-0 bg-light rounded">
+<ul id="wind" *ngIf="visibilityService.visible" class="col-md-5 row row-cols-12 m-0 p-0 bg-light rounded">
     <li class="col-9"></li>
     <li class="col-1"><i class="fa-regular fa-square-minus"></i></li>
     <li class="col-1"><i class="fa-regular fa-square"></i></li>
-    <li class="col-1"><i class="fa-regular fa-rectangle-xmark"></i></li>
-</ul>
+    <li id="closeWin" (click)="hide()" class="col-1 text-danger"><i class="fa-regular fa-rectangle-xmark"></i></li>
+  </ul>

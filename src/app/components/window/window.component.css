@@ -10,6 +10,9 @@ ul {
       justify-content: center!important;
   }
 
+  #closeWin{
+   cursor: pointer !important;
+  }
 
  /* Estilos para pantallas mayores o iguales a 1024px */
  @media (min-width: 1024px) {
