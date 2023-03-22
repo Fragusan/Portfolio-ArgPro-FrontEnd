@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { VisibilityService } from '../../visibility.service';
 
 @Component({
   selector: 'app-consol',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./consol.component.css']
 })
 export class ConsolComponent {
-
+  constructor(public visibilityService: VisibilityService) {}
 }

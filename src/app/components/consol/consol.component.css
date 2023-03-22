@@ -1,3 +1,7 @@
+#consol{
+    z-index: 11;
+}
+
 @media(min-width: 992px){
     #consol{
         position: absolute !important;
