@@ -1,5 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { AppRoutingModule } from './app-routing.module';
+import { HttpClientModule } from '@angular/common/http';
+import { VisibilityService } from './visibility.service';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from '../app/components/navbar/navbar.component';
@@ -16,6 +19,14 @@ import { MainComponent } from './components/main/main.component';
 import { CertificacionesComponent } from './components/certificaciones/certificaciones.component';
 import { CardEducComponent } from './components/card-educ/card-educ.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
+import { WorkComponent } from './components/work/work.component';
+import { GalWorkComponent } from './components/gal-work/gal-work.component';
+import { CardWorkComponent } from './components/card-work/card-work.component';
+import { SkillComponent } from './components/skill/skill.component';
+import { ProjectComponent } from './components/project/project.component';
+import { LoginComponent } from './components/login/login.component';
+import { GalProComponent } from './components/gal-pro/gal-pro.component';
+import { CarProComponent } from './components/car-pro/car-pro.component';
 
 @NgModule({
   declarations: [
@@ -33,12 +44,22 @@ import { GalleryComponent } from './components/gallery/gallery.component';
     MainComponent,
     CertificacionesComponent,
     CardEducComponent,
-    GalleryComponent
+    GalleryComponent,
+    WorkComponent,
+    GalWorkComponent,
+    CardWorkComponent,
+    SkillComponent,
+    ProjectComponent,
+    LoginComponent,
+    GalProComponent,
+    CarProComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [VisibilityService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
