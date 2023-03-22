@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./certificaciones.component.css']
 })
 export class CertificacionesComponent {
+  
+  activeTab = 0;
+
+  changeTab(index: number) {
+    this.activeTab = index;
+  }
 
 }

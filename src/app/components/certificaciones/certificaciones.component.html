@@ -10,21 +10,23 @@
 
   <ul class="navbar-nav">
     <li class="row justify-content-evenly">
+      <!-- [ngClass]="{'active': button1Active}" (click)="showChild(1)" -->
       <button
-        id="BTecnológias"
+        id="BTecnológias" [class.active]="activeTab === 0" (click)="changeTab(0)"
         class="btn btn-outline-light fs-1 text-center mb-3 m-1 col-xl-3 border rounded-5 border-ligth border-2 p-4"
       >
         Tecnológias</button
       ><!-- onclick="show('Tecnológias')" -->
-      <button
-        id="BEducación"
+<!--       [class.active]="isActiveButton(2)" (click)="setActiveButton(2)"
+ -->      <button
+        id="BEducación" [class.active]="activeTab === 1" (click)="changeTab(1)"
         class="btn btn-outline-light fs-1 text-center mb-3 m-1 col-xl-4 border rounded-5 border-ligth border-2 p-4"
       >
         Formación Docente
       </button>
       <!-- onclick="show('Educación')" -->
       <button
-        id="BSoftSkills"
+        id="BSoftSkills" [class.active]="activeTab === 2" (click)="changeTab(2)"
         class="btn btn-outline-light fs-1 text-center mb-3 m-1 col-xl-3 border rounded-5 border-ligth border-2 p-4"
       >
         Soft Skills
@@ -33,9 +35,9 @@
     </li>
   </ul>
   <hr class="border border-warning rounded-5 border-2 opacity-50" />
-
-  <app-gallery></app-gallery>
-  <app-card-educ></app-card-educ>
-
-<!--   aqui el carousel que cargara las card -->
+<!--   *ngIf="selectedChild === 1"
+ -->  <app-gallery *ngIf="activeTab === 0" ></app-gallery>
+  <app-gallery *ngIf="activeTab === 1" ></app-gallery>
+  <app-gallery *ngIf="activeTab === 2"></app-gallery>
+  <hr class="border border-warning rounded-5 border-2 opacity-50" />
 </div>
