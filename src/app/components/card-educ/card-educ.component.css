@@ -6,6 +6,7 @@
     z-index: 11 !important;
 }
 iframe{
-    height: 52vh !important;
-    width: 100% !important;
+    height: 240px !important;
+    width: 320px !important;
+    z-index: 11 !important;
 } 
