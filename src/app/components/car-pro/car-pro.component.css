@@ -1,0 +1,12 @@
+.card.rounded-4.border-light{
+    max-width: 100% !important;
+}
+
+.modal-content{
+    z-index: 11 !important;
+}
+iframe{
+    height: 240px !important;
+    width: 320px !important;
+    z-index: 11 !important;
+} 
