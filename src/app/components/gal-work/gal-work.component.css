@@ -1,0 +1,9 @@
+.carousel-control-next, .carousel-control-prev{
+    padding: 0% !important;
+    width: 4% !important;
+}
+
+.card-wrapper{
+    display: flex;
+    margin: 0px 3.5em;
+}
