@@ -1,0 +1,36 @@
+.lgkey{
+    width: 12%;
+}
+.lguser{
+    width: 16%;
+}
+.lgicon{
+    width:32%;
+}
+
+@media (min-width: 571px) and (max-width:1055px){
+    .lgkey{
+        width: 40%;
+    }
+    .lguser{
+        width: 51%;
+       
+    }
+    .lgicon{
+        width:74%;
+    }
+}
+
+@media (max-width: 570px){
+    .lgkey{
+        width: 46%;
+    }
+    .lguser{
+        width: 31%;
+        height: 31vh;
+        align-items: center;
+    }
+    .lgicon{
+        width:64%;
+    }
+}
