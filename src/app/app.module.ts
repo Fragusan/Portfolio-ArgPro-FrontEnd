@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { VisibilityService } from './visibility.service';
+import { FormsModule  } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { NavbarComponent } from '../app/components/navbar/navbar.component';
@@ -27,6 +28,7 @@ import { ProjectComponent } from './components/project/project.component';
 import { LoginComponent } from './components/login/login.component';
 import { GalProComponent } from './components/gal-pro/gal-pro.component';
 import { CarProComponent } from './components/car-pro/car-pro.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -53,11 +55,13 @@ import { CarProComponent } from './components/car-pro/car-pro.component';
     LoginComponent,
     GalProComponent,
     CarProComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [VisibilityService],
   bootstrap: [AppComponent]
