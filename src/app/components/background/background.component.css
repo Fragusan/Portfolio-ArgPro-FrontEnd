@@ -1,13 +1,16 @@
 #lluvia{
     display: block;
     position: relative;
+    height: 100%;
+    z-index: -4;
+    /* 
     margin:0;
     padding:0;
     box-sizing: border-box;
     background: #000;
     overflow: hidden;
     height: 50rem;
-    z-index: -5;
+    z-index: -5; */
 }
 
 .gota{
